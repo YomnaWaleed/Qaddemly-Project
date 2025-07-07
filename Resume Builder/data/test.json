@@ -1,0 +1,166 @@
+{
+  "user": {
+    "id": 3,
+    "first_name": "Sarah",
+    "last_name": "Johnson",
+    "email": "sarah.johnson@example.com",
+    "date_of_birth": "1995-05-15",
+    "profile_picture": "https://example.com/profiles/sarah.jpg",
+    "about_me": "Full-stack developer with 5 years of experience building web applications",
+    "subtitle": "Senior Software Engineer",
+    "created_at": "2024-01-15T08:30:45.123Z",
+    "updated_at": "2025-04-10T14:22:18.456Z",
+    "address": {
+      "country": "United States",
+      "city": "San Francisco"
+    },
+    "phone": {
+      "country_code": "+1",
+      "number": "4155551234"
+    },
+    "links": {
+      "linkedin": "https://linkedin.com/in/sarahjohnson",
+      "github": "https://github.com/sarahdev",
+      "portfolio": "https://sarahjohnson.dev",
+      "twitter": "https://twitter.com/sarah_codes",
+      "facebook": null,
+      "instagram": "https://instagram.com/sarah.tech",
+      "youtube": null,
+      "website": "https://sarahjohnson.dev"
+    },
+    "skills": [
+      {
+        "id": 8,
+        "account_id": 3,
+        "name": "JavaScript"
+      },
+      {
+        "id": 9,
+        "account_id": 3,
+        "name": "React"
+      },
+      {
+        "id": 10,
+        "account_id": 3,
+        "name": "Python"
+      },
+      {
+        "id": 11,
+        "account_id": 3,
+        "name": "Django"
+      },
+      {
+        "id": 12,
+        "account_id": 3,
+        "name": "AWS"
+      },
+      {
+        "id": 13,
+        "account_id": 3,
+        "name": "Docker"
+      },
+      {
+        "id": 14,
+        "account_id": 3,
+        "name": "Kubernetes"
+      }
+    ],
+    "languages": [
+      {
+        "id": 3,
+        "account_id": 3,
+        "name": "English"
+      },
+      {
+        "id": 4,
+        "account_id": 3,
+        "name": "Spanish"
+      }
+    ],
+    "certificates": [
+      {
+        "id": 1,
+        "account_id": 3,
+        "name": "AWS Certified Solutions Architect",
+        "issuing_organization": "Amazon Web Services",
+        "issue_date": "2023-06-01",
+        "expiration_date": "2026-06-01",
+        "credential_id": "AWS123456789"
+      }
+    ],
+    "educations": [
+      {
+        "id": 2,
+        "university": "Stanford University",
+        "field_of_study": "Computer Science",
+        "gpa": 3.8,
+        "start_date": "2013-09-01",
+        "end_date": "2017-06-15",
+        "account_id": 3
+      }
+    ],
+    "experiences": [
+      {
+        "id": 3,
+        "account_id": 3,
+        "job_title": "Senior Software Engineer",
+        "employment_type": "FullTime",
+        "company_name": "TechCorp",
+        "location": "San Francisco, CA",
+        "location_type": "Hybrid",
+        "still_working": true,
+        "start_date": "2021-03-01",
+        "end_date": null
+      },
+      {
+        "id": 4,
+        "account_id": 3,
+        "job_title": "Software Engineer",
+        "employment_type": "FullTime",
+        "company_name": "WebSolutions",
+        "location": "New York, NY",
+        "location_type": "OnSite",
+        "still_working": false,
+        "start_date": "2017-07-01",
+        "end_date": "2021-02-28"
+      }
+    ],
+    "projects": [
+      {
+        "id": 3,
+        "account_id": 3,
+        "name": "E-commerce Platform",
+        "description": "Built a scalable e-commerce platform with React and Django",
+        "skills": [
+          "React",
+          "Python",
+          "Django",
+          "PostgreSQL"
+        ],
+        "start_date": "2020-01-10",
+        "end_date": "2020-06-15",
+        "still_working": false,
+        "link": "https://github.com/sarahdev/ecommerce-platform",
+        "created_at": "2025-03-10T10:15:30.789Z",
+        "updated_at": "2025-03-10T10:15:30.789Z"
+      },
+      {
+        "id": 4,
+        "account_id": 3,
+        "name": "AI Chatbot",
+        "description": "Developed a customer service chatbot using NLP techniques",
+        "skills": [
+          "Python",
+          "NLP",
+          "Machine Learning"
+        ],
+        "start_date": "2023-02-01",
+        "end_date": null,
+        "still_working": true,
+        "link": "https://github.com/sarahdev/ai-chatbot",
+        "created_at": "2025-04-05T09:45:12.345Z",
+        "updated_at": "2025-04-12T16:30:45.678Z"
+      }
+    ]
+  }
+}

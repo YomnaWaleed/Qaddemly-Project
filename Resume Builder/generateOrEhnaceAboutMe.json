@@ -1,0 +1,151 @@
+{
+    "user": {
+        "id": 2,
+        "first_name": "Abdo",
+        "last_name": "Khattab",
+        "email": "abdo@mailsac.com",
+        "date_of_birth": "2002-10-24",
+        "profile_picture": null,
+        "about_me": "Passionate and goal-driven software engineer with a strong foundation in backend development and AI integration. Experienced in building scalable applications, collaborating in cross-functional teams, and delivering real-world solutions through clean, maintainable code. Currently focused on enhancing backend systems and leveraging AI to drive smarter product experiences.\n\n",
+        "subtitle": "Backend Developer | AI Enthusiast | Problem Solver",
+        "created_at": "2025-03-23T00:40:12.034Z",
+        "updated_at": "2025-03-23T00:40:12.034Z",
+        "address": {
+            "country": "Egypt",
+            "city": "Tanta"
+        },
+        "phone": {
+            "country_code": null,
+            "number": null
+        },
+        "links": {
+            "linkedin": null,
+            "github": null,
+            "portfolio": null,
+            "twitter": null,
+            "facebook": null,
+            "instagram": null,
+            "youtube": null,
+            "website": null
+        },
+        "skills": [
+            {
+                "id": 1,
+                "account_id": 2,
+                "name": "Node.js"
+            },
+            {
+                "id": 2,
+                "account_id": 2,
+                "name": "Backend"
+            },
+            {
+                "id": 3,
+                "account_id": 2,
+                "name": "postgres"
+            },
+            {
+                "id": 4,
+                "account_id": 2,
+                "name": "java"
+            },
+            {
+                "id": 5,
+                "account_id": 2,
+                "name": "software engineer"
+            },
+            {
+                "id": 6,
+                "account_id": 2,
+                "name": "TypeScript"
+            },
+            {
+                "id": 7,
+                "account_id": 2,
+                "name": "Spring boot"
+            }
+        ],
+        "languages": [
+            {
+                "id": 1,
+                "account_id": 2,
+                "name": "Arabic"
+            },
+            {
+                "id": 2,
+                "account_id": 2,
+                "name": "English"
+            }
+        ],
+        "certificates": [],
+        "educations": [
+            {
+                "id": 1,
+                "university": "Tanta",
+                "field_of_study": "Computer Engineering",
+                "gpa": 3.99,
+                "start_date": "2022-12-31",
+                "end_date": "2026-12-31",
+                "account_id": 2
+            }
+        ],
+        "experiences": [
+            {
+                "id": 1,
+                "account_id": 2,
+                "job_title": "Java Sprint Boot Internship",
+                "employment_type": "FullTime",
+                "company_name": "Bank Misr",
+                "location": "Cairo",
+                "location_type": "Remote",
+                "still_working": false,
+                "start_date": "2023-07-01",
+                "end_date": "2024-10-20"
+            },
+            {
+                "id": 3,
+                "account_id": 2,
+                "job_title": "Node.js Internship",
+                "employment_type": "FullTime",
+                "company_name": "Vodafhone",
+                "location": "Cairo",
+                "location_type": "Onsite",
+                "still_working": false,
+                "start_date": "2020-07-01",
+                "end_date": "2021-10-20"
+            }
+        ],
+        "projects": [
+            {
+                "id": 1,
+                "account_id": 2,
+                "name": "Project 1",
+                "description": "Nice Project",
+                "skills": null,
+                "start_date": "2020-12-15",
+                "end_date": "2020-12-19",
+                "still_working": true,
+                "link": "dummy",
+                "created_at": "2025-04-16T18:19:57.596Z",
+                "updated_at": "2025-04-16T18:19:57.596Z"
+            },
+            {
+                "id": 2,
+                "account_id": 2,
+                "name": "Project 1",
+                "description": "Nice Project",
+                "skills": [
+                    "Python",
+                    "java"
+                ],
+                "start_date": "2020-12-15",
+                "end_date": "2020-12-19",
+                "still_working": true,
+                "link": "dummy",
+                "created_at": "2025-04-16T18:20:32.335Z",
+                "updated_at": "2025-04-16T18:20:32.335Z"
+            }
+        ]
+    },
+    "aboutMe": "Social Media Managers oversee an organizations social media presence."
+}

@@ -1,0 +1,104 @@
+{
+  "user":
+   {
+    "id": 2,
+    "country": "Egypt",
+    "city": "Tanta",
+    "about_me": "Passionate and goal-driven software engineer with a strong foundation in backend development and AI integration. Experienced in building scalable applications, collaborating in cross-functional teams, and delivering real-world solutions through clean, maintainable code. Currently focused on enhancing backend systems and leveraging AI to drive smarter product experiences.\n\n",
+    "subtitle": "Backend Developer | AI Enthusiast | Problem Solver",
+    "skills": [
+      {
+        "name": "Node.js"
+      },
+      {
+        "name": "Backend"
+      },
+      {
+        "name": "postgres"
+      },
+      {
+        "name": "java"
+      },
+      {
+        "name": "software engineer"
+      },
+      {
+        "name": "TypeScript"
+      },
+      {
+        "name": "Spring boot"
+      }
+    ],
+    "educations": [
+      {
+        "id": 1,
+        "university": "Tanta",
+        "field_of_study": "Computer Engineering",
+        "gpa": 3.99,
+        "start_date": "2022-12-31",
+        "end_date": "2026-12-31",
+        "account_id": 2
+      }
+    ],
+    "experiences": [
+      {
+        "id": 1,
+        "account_id": 2,
+        "job_title": "Java Sprint Boot Internship",
+        "employment_type": "FullTime",
+        "company_name": "Bank Misr",
+        "location": "Cairo",
+        "location_type": "Remote",
+        "still_working": false,
+        "start_date": "2023-07-01",
+        "end_date": "2024-10-20"
+      },
+      {
+        "id": 3,
+        "account_id": 2,
+        "job_title": "Node.js Internship",
+        "employment_type": "FullTime",
+        "company_name": "Vodafhone",
+        "location": "Cairo",
+        "location_type": "Onsite",
+        "still_working": false,
+        "start_date": "2020-07-01",
+        "end_date": "2021-10-20"
+      }
+    ]
+  },
+  "job":
+   {
+  "id": 10003,
+  "title": "Data Engineer",
+  "description": "We are seeking a skilled Data Engineer to design and maintain data pipelines. Responsibilities include building ETL processes, managing large-scale databases with PostgreSQL, and processing data using Apache Spark and Java. Collaborate with data analysts to provide insights and ensure data integrity. The role involves optimizing data workflows and ensuring scalability of data infrastructure.",
+  "country": "Egypt",
+  "city": "Cairo",
+  "location_type": "Onsite",
+  "status": "Opened",
+  "skills": [
+    "PostgreSQL",
+    "Java",
+    "Apache Spark",
+    "ETL Processes",
+    "Data Pipelines",
+    "Database Management",
+    "Big Data Technologies"
+  ],
+  "salary": 90000,
+  "employee_type": "FullTime",
+  "keywords": [
+    "Data Engineer",
+    "PostgreSQL",
+    "Java",
+    "Apache Spark",
+    "ETL Processes",
+    "Data Pipelines",
+    "Database Management"
+  ],
+  "experience": 5,
+  "business_id": 4,
+  "created_at": "2025-05-14T00:00:00.000Z",
+  "updated_at": "2025-05-14T00:00:00.000Z"
+}
+}

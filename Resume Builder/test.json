@@ -1,0 +1,48 @@
+{
+    "user": {
+        "id": "12345",
+        "subtitle": "Full-Stack Developer",
+        "about_me": "Passionate coder with experience in web development and cloud solutions.",
+        "skills": [
+            "Python",
+            "Django",
+            "JavaScript",
+            "React",
+            "AWS",
+            "Docker",
+            "SQL",
+            "Git",
+            "Communication",
+            "Teamwork",
+            "Problem-Solving"
+        ],
+        "educations": [
+            {
+                "degree": "B.S. in Computer Science",
+                "institution": "Stanford University",
+                "year": 2023
+            }
+        ],
+        "certifications": [
+            {
+                "name": "AWS Certified Solutions Architect – Associate",
+                "issuer": "Amazon Web Services",
+                "year": 2024
+            },
+            {
+                "name": "Certified ScrumMaster",
+                "issuer": "Scrum Alliance",
+                "year": 2024
+            }
+        ],
+        "interests": [
+            "Cloud Computing",
+            "Open-Source Development",
+            "Agile Methodologies"
+        ],
+        "languages": [
+            "English",
+            "Spanish"
+        ]
+    }
+}

@@ -1,0 +1,192 @@
+{
+    "user": {
+        "id": 2,
+        "first_name": "Abdo",
+        "last_name": "Khattab",
+        "email": "abdo@mailsac.com",
+        "date_of_birth": "2002-10-24",
+        "profile_picture": "https://example.com/profile.jpg",
+        "about_me": "Passionate backend developer with 2+ years of experience building scalable systems using Node.js and Java Spring Boot. Strong problem-solving skills and expertise in database design, API development, and cloud integration. Committed to writing clean, efficient code and collaborating in agile teams.",
+        "subtitle": "Backend Developer | API Specialist | Cloud Enthusiast",
+        "created_at": "2025-03-23T00:40:12.034Z",
+        "updated_at": "2025-06-26T10:15:45.000Z",
+        "address": {
+            "country": "Egypt",
+            "city": "Tanta",
+            "street": "123 Tech Street",
+            "postal_code": "12345"
+        },
+        "phone": {
+            "country_code": "+20",
+            "number": "1234567890"
+        },
+        "links": {
+            "linkedin": "https://linkedin.com/in/abdo-khattab",
+            "github": "https://github.com/abdo-dev",
+            "portfolio": "https://abdo-dev.tech",
+            "twitter": "https://twitter.com/abdo_dev",
+            "facebook": null,
+            "instagram": null,
+            "youtube": null,
+            "website": "https://abdo-dev.tech"
+        },
+        "skills": [
+            {
+                "id": 1,
+                "account_id": 2,
+                "name": "Node.js",
+                "level": "Advanced"
+            },
+            {
+                "id": 2,
+                "account_id": 2,
+                "name": "Java Spring Boot",
+                "level": "Intermediate"
+            },
+            {
+                "id": 3,
+                "account_id": 2,
+                "name": "PostgreSQL",
+                "level": "Advanced"
+            },
+            {
+                "id": 4,
+                "account_id": 2,
+                "name": "RESTful APIs",
+                "level": "Advanced"
+            },
+            {
+                "id": 5,
+                "account_id": 2,
+                "name": "Docker",
+                "level": "Intermediate"
+            },
+            {
+                "id": 6,
+                "account_id": 2,
+                "name": "TypeScript",
+                "level": "Intermediate"
+            },
+            {
+                "id": 7,
+                "account_id": 2,
+                "name": "AWS",
+                "level": "Beginner"
+            }
+        ],
+        "languages": [
+            {
+                "id": 1,
+                "account_id": 2,
+                "name": "Arabic",
+                "proficiency": "Native"
+            },
+            {
+                "id": 2,
+                "account_id": 2,
+                "name": "English",
+                "proficiency": "Professional"
+            }
+        ],
+        "certificates": [
+            {
+                "id": 1,
+                "account_id": 2,
+                "name": "AWS Certified Developer - Associate",
+                "issuer": "Amazon Web Services",
+                "date": "2024-05-15",
+                "url": "https://example.com/certificate1"
+            },
+            {
+                "id": 2,
+                "account_id": 2,
+                "name": "Node.js Advanced Concepts",
+                "issuer": "Udemy",
+                "date": "2023-11-20",
+                "url": "https://example.com/certificate2"
+            }
+        ],
+        "educations": [
+            {
+                "id": 1,
+                "account_id": 2,
+                "university": "Tanta University",
+                "field_of_study": "Computer Engineering",
+                "degree": "Bachelor",
+                "gpa": 3.99,
+                "start_date": "2020-09-01",
+                "end_date": "2024-06-30",
+                "description": "Specialized in software engineering and database systems. Completed advanced courses in algorithms, distributed systems, and cloud computing."
+            }
+        ],
+        "experiences": [
+            {
+                "id": 1,
+                "account_id": 2,
+                "job_title": "Java Spring Boot Developer Intern",
+                "employment_type": "Full-time",
+                "company_name": "Bank Misr",
+                "location": "Cairo, Egypt",
+                "location_type": "Hybrid",
+                "still_working": false,
+                "start_date": "2023-07-01",
+                "end_date": "2024-03-31",
+                "description": "Developed and maintained banking microservices using Spring Boot. Implemented JWT authentication and optimized database queries, reducing response times by 30%. Collaborated in an agile team of 5 developers."
+            },
+            {
+                "id": 2,
+                "account_id": 2,
+                "job_title": "Node.js Backend Developer",
+                "employment_type": "Part-time",
+                "company_name": "Freelance",
+                "location": "Remote",
+                "location_type": "Remote",
+                "still_working": true,
+                "start_date": "2022-01-01",
+                "end_date": null,
+                "description": "Built RESTful APIs for various clients using Node.js and Express. Designed database schemas and implemented authentication systems. Deployed applications on AWS EC2 and managed CI/CD pipelines."
+            }
+        ],
+        "projects": [
+            {
+                "id": 1,
+                "account_id": 2,
+                "name": "E-commerce Backend System",
+                "description": "Developed a scalable e-commerce backend with Node.js, Express, and PostgreSQL. Implemented JWT authentication, product catalog management, and order processing system. Achieved 99.9% uptime on AWS.",
+                "skills": ["Node.js", "PostgreSQL", "REST API", "AWS"],
+                "start_date": "2023-05-01",
+                "end_date": "2023-08-15",
+                "still_working": false,
+                "link": "https://github.com/abdo-dev/ecommerce-backend",
+                "is_featured": true
+            },
+            {
+                "id": 2,
+                "account_id": 2,
+                "name": "Banking API Gateway",
+                "description": "Created a secure API gateway for financial transactions using Java Spring Boot. Implemented rate limiting, request validation, and OAuth 2.0 authentication. Reduced latency by 40% through query optimization.",
+                "skills": ["Java", "Spring Boot", "OAuth", "Microservices"],
+                "start_date": "2024-01-10",
+                "end_date": "2024-04-20",
+                "still_working": false,
+                "link": "https://github.com/abdo-dev/banking-gateway",
+                "is_featured": true
+            },
+            {
+                "id": 3,
+                "account_id": 2,
+                "name": "Real-time Chat Application",
+                "description": "Built a real-time chat application using Node.js, Socket.io, and MongoDB. Implemented message persistence, user authentication, and online status tracking. Supports 1000+ concurrent connections.",
+                "skills": ["Node.js", "WebSockets", "MongoDB", "Redis"],
+                "start_date": "2022-11-01",
+                "end_date": "2023-02-28",
+                "still_working": false,
+                "link": "https://github.com/abdo-dev/realtime-chat",
+                "is_featured": false
+            }
+        ]
+    },
+    "jobDescription": "We're seeking a skilled Backend Developer to join our team. Responsibilities include designing and implementing scalable microservices, optimizing database performance, and developing RESTful APIs. Requirements: 2+ years experience with Node.js/Java, strong knowledge of SQL databases, and familiarity with cloud platforms.",
+    "existingBody": ""
+
+}

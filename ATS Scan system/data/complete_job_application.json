@@ -1,0 +1,166 @@
+{
+  "success": true,
+  "job_application_state": { "job_application_id": 10, "state": "PENDING" },
+  "job": {
+    "id": 100060,
+    "title": "marketing",
+    "description": "job description for marketing wooow",
+    "country": "Egypt",
+    "city": "cairo",
+    "location_type": "Remote",
+    "status": "Opened",
+    "skills": ["accounting", "media"],
+    "salary": 10000,
+    "employee_type": "PartTime",
+    "keywords": ["marketing", "ecom"],
+    "experience": 2,
+    "currency": "USD",
+    "has_extra_link_application": false,
+    "extra_application_link": null,
+    "business_id": 200039,
+    "created_at": "2025-06-24T12:48:12.638Z",
+    "updated_at": "2025-06-24T12:48:12.638Z"
+  },
+  "jobApplication": {
+    "id": 10,
+    "first_name": "eslam",
+    "last_name": "mohamed",
+    "email": "eslam@mailsac.com",
+    "phone": "01085858585",
+    "birth_date": "2002-03-14",
+    "skills": ["Node.js", "TypeScript", "MongoDB"],
+    "languages": ["English", "Arabic"],
+    "created_at": "2025-06-24T13:06:48.577Z",
+    "updated_at": "2025-06-24T13:06:48.577Z",
+    "job_application_education": [
+      {
+        "id": 10,
+        "university": "tanta",
+        "field_of_study": "engineering",
+        "gpa": 3.5,
+        "start_date": "2020-09-01",
+        "end_date": "2024-06-01"
+      }
+    ],
+    "job_application_experience": [
+      {
+        "id": 10,
+        "job_title": "Backend Developer",
+        "description": "i have worked as a backend-developer with collaboration team.",
+        "employment_type": "FullTime",
+        "company_name": "X_Motion",
+        "location": "Cairo",
+        "location_type": "Onsite",
+        "still_working": true,
+        "start_date": "2024-01-01",
+        "end_date": null
+      }
+    ],
+    "job_application_resume": [
+      {
+        "id": 10,
+        "url": "http://localhost:8000/uploads/jobApplicationResumes/resume-427541302-1750770408438.pdf",
+        "name": "Purple and White Clean and Professional Resume (1).pdf",
+        "size": 53480
+      }
+    ],
+
+    "questionAnswers": [
+      {
+        "question": {
+          "_id": "685a9e8c91347ce9db5f1f6c",
+          "questionText": "What is your full name?",
+          "questionType": "short_answer",
+          "isRequired": true
+        },
+        "answer": "John Doe",
+        "_id": "685aa2e891347ce9db5f1fa1"
+      },
+      {
+        "question": {
+          "_id": "685a9e8c91347ce9db5f1f6d",
+          "questionText": "Describe your most recent job role and responsibilities.",
+          "questionType": "long_answer",
+          "isRequired": true
+        },
+        "answer": "I was a backend developer responsible for building REST APIs and database design.",
+        "_id": "685aa2e891347ce9db5f1fa2"
+      },
+      {
+        "question": {
+          "_id": "685a9e8c91347ce9db5f1f6e",
+          "questionText": "How many years of experience do you have in this industry?",
+          "questionType": "short_answer",
+          "isRequired": true
+        },
+        "answer": "5",
+        "_id": "685aa2e891347ce9db5f1fa3"
+      },
+      {
+        "question": {
+          "_id": "685a9e8c91347ce9db5f1f6f",
+          "questionText": "What is your highest level of education?",
+          "questionType": "multiple_choice",
+          "options": [
+            "Associate Degree",
+            "Bachelor's Degree",
+            "Doctorate",
+            "High School Diploma",
+            "Master's Degree"
+          ],
+          "isRequired": true
+        },
+        "answer": "Bachelor's Degree",
+        "_id": "685aa2e891347ce9db5f1fa4"
+      },
+      {
+        "question": {
+          "_id": "685a9e8c91347ce9db5f1f70",
+          "questionText": "Are you willing to relocate for this job?",
+          "questionType": "multiple_choice",
+          "options": ["Maybe", "No", "Yes"],
+          "isRequired": true
+        },
+        "answer": "Yes",
+        "_id": "685aa2e891347ce9db5f1fa5"
+      },
+      {
+        "question": {
+          "_id": "685a9e8c91347ce9db5f1f71",
+          "questionText": "What are your career goals for the next 5 years?",
+          "questionType": "long_answer",
+          "isRequired": false
+        },
+        "answer": "To become a senior software engineer and lead a development team.",
+        "_id": "685aa2e891347ce9db5f1fa6"
+      },
+      {
+        "question": {
+          "_id": "685a9e8c91347ce9db5f1f72",
+          "questionText": "List any certifications you hold related to this position.",
+          "questionType": "short_answer",
+          "isRequired": false
+        },
+        "answer": "AWS Certified Solutions Architect, MongoDB Certified Developer",
+        "_id": "685aa2e891347ce9db5f1fa7"
+      },
+      {
+        "question": {
+          "_id": "685a9e8c91347ce9db5f1f73",
+          "questionText": "How did you hear about this job opening?",
+          "questionType": "multiple_choice",
+          "options": [
+            "Company Website",
+            "Employee Referral",
+            "Job Board",
+            "Other",
+            "Social Media"
+          ],
+          "isRequired": false
+        },
+        "answer": "Job Board",
+        "_id": "685aa2e891347ce9db5f1fa8"
+      }
+    ]
+  }
+}

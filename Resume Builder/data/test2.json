@@ -1,0 +1,164 @@
+{
+  "user": {
+    "id": 3,
+    "first_name": "Emma",
+    "last_name": "Rodriguez",
+    "email": "emma.rodriguez@example.com",
+    "date_of_birth": "1995-08-14",
+    "profile_picture": "https://example.com/profiles/emma.jpg",
+    "about_me": null,
+    "subtitle": "Data Scientist & Machine Learning Engineer",
+    "created_at": "2024-02-15T09:12:45.000Z",
+    "updated_at": "2025-04-10T14:30:00.000Z",
+    "address": {
+      "country": "United States",
+      "city": "Austin, TX"
+    },
+    "phone": {
+      "country_code": "+1",
+      "number": "5125550199"
+    },
+    "links": {
+      "linkedin": "https://linkedin.com/in/emmarodriguez",
+      "github": "https://github.com/emma-ds",
+      "portfolio": "https://emmarodriguez.dev",
+      "twitter": "https://twitter.com/emma_ds",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null,
+      "website": "https://emmarodriguez.dev"
+    },
+    "skills": [
+      {
+        "id": 8,
+        "account_id": 3,
+        "name": "Python"
+      },
+      {
+        "id": 9,
+        "account_id": 3,
+        "name": "Machine Learning"
+      },
+      {
+        "id": 10,
+        "account_id": 3,
+        "name": "TensorFlow"
+      },
+      {
+        "id": 11,
+        "account_id": 3,
+        "name": "PyTorch"
+      },
+      {
+        "id": 12,
+        "account_id": 3,
+        "name": "Data Analysis"
+      },
+      {
+        "id": 13,
+        "account_id": 3,
+        "name": "SQL"
+      },
+      {
+        "id": 14,
+        "account_id": 3,
+        "name": "Big Data"
+      }
+    ],
+    "languages": [
+      {
+        "id": 3,
+        "account_id": 3,
+        "name": "English"
+      },
+      {
+        "id": 4,
+        "account_id": 3,
+        "name": "Spanish"
+      }
+    ],
+    "certificates": [
+      {
+        "id": 1,
+        "account_id": 3,
+        "name": "Google Professional Data Engineer",
+        "issuing_organization": "Google Cloud",
+        "issue_date": "2023-05-01",
+        "expiration_date": "2025-05-01"
+      }
+    ],
+    "educations": [
+      {
+        "id": 2,
+        "university": "University of Texas at Austin",
+        "field_of_study": "Computer Science",
+        "gpa": 3.8,
+        "start_date": "2014-09-01",
+        "end_date": "2018-05-15",
+        "account_id": 3
+      }
+    ],
+    "experiences": [
+      {
+        "id": 3,
+        "account_id": 3,
+        "job_title": "Senior Data Scientist",
+        "employment_type": "FullTime",
+        "company_name": "TechAnalytics Inc.",
+        "location": "Austin, TX",
+        "location_type": "Hybrid",
+        "still_working": true,
+        "start_date": "2021-03-01",
+        "end_date": null
+      },
+      {
+        "id": 4,
+        "account_id": 3,
+        "job_title": "Machine Learning Engineer",
+        "employment_type": "FullTime",
+        "company_name": "DataWorks",
+        "location": "San Francisco, CA",
+        "location_type": "Remote",
+        "still_working": false,
+        "start_date": "2018-07-01",
+        "end_date": "2021-02-28"
+      }
+    ],
+    "projects": [
+      {
+        "id": 3,
+        "account_id": 3,
+        "name": "Fraud Detection System",
+        "description": "Developed ML model to detect financial fraud with 98% accuracy",
+        "skills": [
+          "Python",
+          "Machine Learning",
+          "TensorFlow"
+        ],
+        "start_date": "2022-01-10",
+        "end_date": "2022-06-15",
+        "still_working": false,
+        "link": "https://github.com/emma-ds/fraud-detection",
+        "created_at": "2025-03-10T10:15:30.789Z",
+        "updated_at": "2025-03-10T10:15:30.789Z"
+      },
+      {
+        "id": 4,
+        "account_id": 3,
+        "name": "Customer Segmentation Engine",
+        "description": "Built clustering algorithm for marketing segmentation",
+        "skills": [
+          "Python",
+          "Scikit-learn",
+          "Big Data"
+        ],
+        "start_date": "2023-02-01",
+        "end_date": null,
+        "still_working": true,
+        "link": "https://github.com/emma-ds/segmentation-engine",
+        "created_at": "2025-04-05T09:45:12.345Z",
+        "updated_at": "2025-04-12T16:30:45.678Z"
+      }
+    ]
+  }
+}

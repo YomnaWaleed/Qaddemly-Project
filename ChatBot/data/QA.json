@@ -1,0 +1,467 @@
+[
+  {
+    "id": 1,
+    "question": "How do I register as a job seeker on Qaddemly?",
+    "answer": "Go to the registration page, select 'Job Seeker', fill in required details (name, email, password), and verify your email to access job search tools and portfolio features."
+  },
+  {
+    "id": 2,
+    "question": "How can a company register on Qaddemly?",
+    "answer": "Choose 'Company' during registration, provide business details (name, email, industry, etc.), and verify the email to create a company profile and post jobs."
+  },
+  {
+    "id": 3,
+    "question": "Is email verification required after registration?",
+    "answer": "Yes, email verification ensures account security and authenticity before accessing platform features."
+  },
+  {
+    "id": 4,
+    "question": "Is Qaddemly secure for logging in?",
+    "answer": "Yes, it uses secure login protocols including password hashing and HTTPS encryption."
+  },
+  {
+    "id": 5,
+    "question": "Are my passwords encrypted or hashed?",
+    "answer": "Passwords are securely hashed using industry-standard algorithms before storage."
+  },
+  {
+    "id": 6,
+    "question": "What roles are supported in the platform?",
+    "answer": "Three roles: Job Seekers (apply to jobs), Companies (post jobs), and HR Managers (manage applications with restricted permissions)."
+  },
+  {
+    "id": 7,
+    "question": "What can HR managers access on Qaddemly?",
+    "answer": "HR managers can view applications, assign roles, evaluate candidates via Matching Scores, and manage job postings (permissions set by company admins)."
+  },
+  {
+    "id": 8,
+    "question": "What is Role-Based Access Control (RBAC)?",
+    "answer": "A security model that grants permissions based on user roles (e.g., job seekers can't post jobs, HR managers have limited company access)."
+  },
+  {
+    "id": 9,
+    "question": "Can I log in on multiple devices at once?",
+    "answer": "Yes, token-based authentication (JWT) supports concurrent logins across devices."
+  },
+  {
+    "id": 10,
+    "question": "Does Qaddemly use JWT or session cookies?",
+    "answer": "JWT (JSON Web Tokens) for scalable, secure authentication across web and mobile interfaces."
+  },
+  {
+    "id": 11,
+    "question": "What information does my profile contain?",
+    "answer": "Projects, volunteering, certificates, work experience, education, skills, languages, and a dynamic portfolio for AI-powered job matching."
+  },
+  {
+    "id": 12,
+    "question": "Can I edit my portfolio after registration?",
+    "answer": "Yes, profiles are fully editable to keep information current."
+  },
+  {
+    "id": 13,
+    "question": "How is my profile used for job recommendations?",
+    "answer": "AI analyzes your skills, experience, and behavior to suggest tailored job listings."
+  },
+  {
+    "id": 14,
+    "question": "How is the job matching score calculated?",
+    "answer": "By comparing your profile (skills/experience) with job requirements using AI algorithms, resulting in a compatibility percentage."
+  },
+  {
+    "id": 15,
+    "question": "What is the purpose of the matching score?",
+    "answer": "Helps prioritize high-fit jobs and increases application success rates by quantifying alignment."
+  },
+  {
+    "id": 16,
+    "question": "How do I search for jobs on Qaddemly?",
+    "answer": "Use the search bar with filters (title, location, salary, skills) or browse AI-recommended jobs on your dashboard."
+  },
+  {
+    "id": 17,
+    "question": "What filters are available in job search?",
+    "answer": "Employment type, location, salary range, required skills, and keywords."
+  },
+  {
+    "id": 18,
+    "question": "Can I save jobs to view later?",
+    "answer": "Yes, click 'Save Job' to bookmark listings in your dashboard."
+  },
+  {
+    "id": 19,
+    "question": "How do I track my job applications?",
+    "answer": "The 'Applications' dashboard shows status updates (e.g., submitted, under review, rejected) for all applications."
+  },
+  {
+    "id": 20,
+    "question": "Can I follow companies on Qaddemly?",
+    "answer": "Yes, follow companies to receive notifications about their new job postings."
+  },
+  {
+    "id": 21,
+    "question": "How do I write company reviews?",
+    "answer": "Visit a company's profile and submit a rating/review based on interview or work experiences."
+  },
+  {
+    "id": 22,
+    "question": "How do I apply for a job on Qaddemly?",
+    "answer": "For 'Easy Apply' jobs: Upload documents, answer screening questions, and submit. For external jobs: Redirect to the company's site."
+  },
+  {
+    "id": 23,
+    "question": "Can I upload my resume/cover letter during applications?",
+    "answer": "Yes, upload existing files or use Qaddemly's AI tools to create optimized versions."
+  },
+  {
+    "id": 24,
+    "question": "What are screening questions?",
+    "answer": "Optional questions added by employers to filter candidates (e.g., 'Do you have 3+ years of experience in X?')."
+  },
+  {
+    "id": 25,
+    "question": "What’s the difference between Easy Apply and External Apply?",
+    "answer": "Easy Apply: Submit within Qaddemly. External Apply: Redirects to the company's career page."
+  },
+  {
+    "id": 26,
+    "question": "Can I create a resume on Qaddemly?",
+    "answer": "Yes, the Resume Builder generates ATS-friendly resumes from your profile data."
+  },
+  {
+    "id": 27,
+    "question": "Is the resume downloadable as PDF?",
+    "answer": "Yes, download or edit your AI-enhanced resume anytime."
+  },
+  {
+    "id": 28,
+    "question": "How does AI enhance my resume?",
+    "answer": "Suggests keywords, improves formatting, and identifies missing sections to optimize for ATS and recruiters."
+  },
+  {
+    "id": 29,
+    "question": "Can I create cover letters on Qaddemly?",
+    "answer": "Yes, manually or via AI generation tailored to specific jobs."
+  },
+  {
+    "id": 30,
+    "question": "Can AI generate cover letters for me?",
+    "answer": "Yes, it drafts personalized letters using your profile and job description keywords."
+  },
+  {
+    "id": 31,
+    "question": "How do I get notified of new job matches?",
+    "answer": "Real-time alerts for jobs matching your profile, sent via email or platform notifications."
+  },
+  {
+    "id": 32,
+    "question": "Will I get application status alerts?",
+    "answer": "Yes, notifications for status changes (e.g., shortlisted, rejected)."
+  },
+  {
+    "id": 33,
+    "question": "Does Qaddemly have a messaging system?",
+    "answer": "Yes, a WebSocket-based chat for direct communication between candidates and employers."
+  },
+  {
+    "id": 34,
+    "question": "Can I chat with employers directly?",
+    "answer": "Yes, via the platform's messaging feature."
+  },
+  {
+    "id": 35,
+    "question": "What details are required for company registration?",
+    "answer": "Name, industry, size, location, contact details, and optional logo/social links."
+  },
+  {
+    "id": 36,
+    "question": "Can companies add logos/social links?",
+    "answer": "Yes, to enhance their public profile."
+  },
+  {
+    "id": 37,
+    "question": "What’s included in a public company profile?",
+    "answer": "Description, industry, size, location, leadership, mission, logo, and job postings."
+  },
+  {
+    "id": 38,
+    "question": "How do companies post jobs?",
+    "answer": "Via the Company Dashboard: Enter title, type, description, skills, and choose Easy/External Apply."
+  },
+  {
+    "id": 39,
+    "question": "What job fields are required when posting?",
+    "answer": "Title, employment type, location, description, and skills. Salary is optional."
+  },
+  {
+    "id": 40,
+    "question": "How does the application flow work?",
+    "answer": "Candidates apply via Easy Apply (on-platform) or External URL (redirects). Applications appear in the Company Dashboard."
+  },
+  {
+    "id": 41,
+    "question": "What is Easy Apply?",
+    "answer": "Candidates submit applications directly on Qaddemly without leaving the platform."
+  },
+  {
+    "id": 42,
+    "question": "Can companies redirect applicants externally?",
+    "answer": "Yes, by providing an External Application URL in the job post."
+  },
+  {
+    "id": 43,
+    "question": "How does the External URL work?",
+    "answer": "Applicants click 'Apply' and are redirected to the company's career page or ATS."
+  },
+  {
+    "id": 44,
+    "question": "How do companies track applications?",
+    "answer": "Via the Company Dashboard: View, filter, and sort applicants by Matching Score or date."
+  },
+  {
+    "id": 45,
+    "question": "How to filter candidates by Matching Score?",
+    "answer": "Use dashboard filters to prioritize high-scoring applicants."
+  },
+  {
+    "id": 46,
+    "question": "How do I assign HR roles?",
+    "answer": "Admins invite team members via email and assign permissions (e.g., job post access)."
+  },
+  {
+    "id": 47,
+    "question": "What permissions can HR users have?",
+    "answer": "Restricted access to specific job posts, applicant data, and communication tools."
+  },
+  {
+    "id": 48,
+    "question": "How to edit the company profile?",
+    "answer": "Admins update details in the 'Company Profile' settings section."
+  },
+  {
+    "id": 49,
+    "question": "What company settings can admins configure?",
+    "answer": "Default application preferences (Easy/External), HR role permissions, and privacy settings."
+  },
+  {
+    "id": 50,
+    "question": "Can companies receive reviews?",
+    "answer": "Yes, job seekers can rate/review companies based on interviews or employment."
+  },
+  {
+    "id": 51,
+    "question": "How does the follow system work?",
+    "answer": "Job seekers follow companies to get notifications about new jobs posted by them."
+  },
+  {
+    "id": 52,
+    "question": "What is the Recommendation System?",
+    "answer": "AI that suggests jobs based on your profile (skills, experience) and behavior (searches, saves)."
+  },
+  {
+    "id": 53,
+    "question": "How does job matching work?",
+    "answer": "AI compares your profile with job requirements to calculate a Matching Score (%)."
+  },
+  {
+    "id": 54,
+    "question": "Can I see why a job was recommended?",
+    "answer": "Yes, the platform highlights aligned skills/experience for each recommendation."
+  },
+  {
+    "id": 55,
+    "question": "How to improve my recommendations?",
+    "answer": "Update your profile (skills, projects) and interact with jobs (saves, applications)."
+  },
+  {
+    "id": 56,
+    "question": "What is the Matching Score?",
+    "answer": "A percentage showing how well your profile aligns with a job's requirements."
+  },
+  {
+    "id": 57,
+    "question": "How is the Matching Score calculated?",
+    "answer": "AI evaluates skills, experience, and keywords against the job description."
+  },
+  {
+    "id": 58,
+    "question": "How should I use the Matching Score?",
+    "answer": "Prioritize high-score jobs but apply to others if interested."
+  },
+  {
+    "id": 59,
+    "question": "What is the ATS Scan System?",
+    "answer": "A tool that simulates how Applicant Tracking Systems parse resumes to identify optimization gaps."
+  },
+  {
+    "id": 60,
+    "question": "How does the ATS simulator help?",
+    "answer": "Identifies formatting issues and missing keywords to improve ATS compatibility."
+  },
+  {
+    "id": 61,
+    "question": "Do employers use ATS standards?",
+    "answer": "Yes, Qaddemly guides employers to create ATS-friendly job posts."
+  },
+  {
+    "id": 62,
+    "question": "What is Keyword Optimization?",
+    "answer": "Adding relevant keywords from job descriptions to your resume/cover letter for ATS visibility."
+  },
+  {
+    "id": 63,
+    "question": "How do I find missing resume keywords?",
+    "answer": "The platform compares your resume with job posts and highlights gaps."
+  },
+  {
+    "id": 64,
+    "question": "How are keyword suggestions made?",
+    "answer": "AI extracts key terms from job descriptions and your profile to recommend additions."
+  },
+  {
+    "id": 65,
+    "question": "What is the Resume Builder?",
+    "answer": "A tool to create ATS-friendly resumes with AI-powered formatting and content suggestions."
+  },
+  {
+    "id": 66,
+    "question": "How do I start building my resume?",
+    "answer": "Input your details in the Resume Builder, and AI will generate a structured draft."
+  },
+  {
+    "id": 67,
+    "question": "Will AI highlight missing resume sections?",
+    "answer": "Yes, it alerts you to incomplete areas (e.g., skills, education)."
+  },
+  {
+    "id": 68,
+    "question": "What does the Cover Letter Builder do?",
+    "answer": "Generates tailored cover letters using your profile and job-specific keywords."
+  },
+  {
+    "id": 69,
+    "question": "How does AI enhance my cover letter?",
+    "answer": "Suggests tone, structure, and keywords aligned with the job description."
+  },
+  {
+    "id": 70,
+    "question": "Can I get cover letter writing suggestions?",
+    "answer": "Yes, AI provides drafts and editable recommendations."
+  },
+  {
+    "id": 71,
+    "question": "What is Job Posting Enhancement?",
+    "answer": "AI tool helping employers write clear, keyword-rich job descriptions for better candidate matching."
+  },
+  {
+    "id": 72,
+    "question": "How does AI improve job postings?",
+    "answer": "Suggests clearer wording, missing sections, and ATS-friendly keywords."
+  },
+  {
+    "id": 73,
+    "question": "How do job seekers benefit from enhanced postings?",
+    "answer": "Clearer requirements and better-matched recommendations improve application quality."
+  },
+  {
+    "id": 74,
+    "question": "What makes Qaddemly unique?",
+    "answer": "End-to-end AI tools (matching, resume/CV building, real-time messaging) integrated into one platform."
+  },
+  {
+    "id": 75,
+    "question": "Is Qaddemly free?",
+    "answer": "Core features are free for job seekers; premium options may exist for companies."
+  },
+  {
+    "id": 76,
+    "question": "Is Qaddemly good for recent graduates?",
+    "answer": "Yes, AI tools help optimize entry-level applications and highlight transferable skills."
+  },
+  {
+    "id": 77,
+    "question": "Is there a mobile app?",
+    "answer": "Currently web-only; mobile apps may come later."
+  },
+  {
+    "id": 78,
+    "question": "Is Arabic supported?",
+    "answer": "Not yet; multilingual support is planned for future updates."
+  },
+  {
+    "id": 79,
+    "question": "How do I get started?",
+    "answer": "Register, complete your profile, and use AI tools to search jobs or post listings."
+  },
+  {
+    "id": 80,
+    "question": "How to prepare before applying?",
+    "answer": "1) Complete your profile 2) Use AI to optimize resumes/CVs 3) Check Matching Scores 4) Tailor applications with keyword optimization."
+  }, 
+  {
+    "id": 81,
+    "question": "What are the main goals of the Qaddemly platform?",
+    "answer": "To streamline hiring through AI-powered job matching, resume/CV optimization, and real-time employer-candidate communication, reducing manual effort and bias."
+  },
+  {
+    "id": 82,
+    "question": "Who are Qaddemly's primary target users?",
+    "answer": "Job seekers (students, graduates, professionals), employers (SMEs to enterprises), and HR teams managing recruitment workflows."
+  },
+  {
+    "id": 83,
+    "question": "How does Qaddemly reduce hiring bias?",
+    "answer": "AI focuses on skills/experience matching rather than demographic factors, and standardized job posts minimize subjective language."
+  },
+  {
+    "id": 84,
+    "question": "What is the Company Explorer feature?",
+    "answer": "A search tool for job seekers to discover, research, and follow companies based on industry, reviews, or job openings."
+  },
+  {
+    "id": 85,
+    "question": "How does Qaddemly improve time-to-hire for employers?",
+    "answer": "Automated candidate ranking (Matching Score), AI job post optimization, and real-time messaging accelerate screening and communication."
+  },
+  {
+    "id": 86,
+    "question": "What technologies power real-time messaging?",
+    "answer": "WebSocket protocols enable instant chat between candidates and employers within the platform."
+  },
+  {
+    "id": 87,
+    "question": "Does Qaddemly integrate with third-party ATS systems?",
+    "answer": "Not currently; this is planned for future updates."
+  },
+  {
+    "id": 88,
+    "question": "What are Qaddemly's competitive advantages vs. LinkedIn/WUZZUF?",
+    "answer": "Deeper AI integration (Matching Score, resume/CV tools), role-based access controls, and employer-candidate transparency."
+  },
+  {
+    "id": 89,
+    "question": "What external opportunities can Qaddemly leverage?",
+    "answer": "Partnerships with universities, integration with upskilling platforms, and expansion into emerging markets with AI-driven hiring."
+  },
+  {
+    "id": 90,
+    "question": "What threats might Qaddemly face?",
+    "answer": "Competition from established platforms, evolving data privacy laws, and rapid AI advancements requiring continuous innovation."
+  },
+  {
+    "id": 91,
+    "question": "What’s included in the resume evaluation dashboard for employers?",
+    "answer": "Applicant filtering by Matching Score, resume/CV downloads, communication history, and status tracking (e.g., 'Shortlisted')."
+  },
+  {
+    "id": 92,
+    "question": "How does job seeker behavior influence recommendations?",
+    "answer": "AI refines suggestions based on profile updates, saved jobs, application history, and interaction patterns (e.g., frequent clicks on remote roles)."
+  },
+  {
+    "id": 93,
+    "question": "What limitations are out of scope for Qaddemly’s current phase?",
+    "answer": "Native mobile apps, multilingual support, third-party ATS integrations, and enterprise analytics are planned for future releases."
+  }
+]

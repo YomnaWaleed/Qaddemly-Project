@@ -1,0 +1,701 @@
+{
+  "success": true,
+  "job_application_state": { "job_application_id": 10, "state": "PENDING" },
+  "job": {
+    "id": 100060,
+    "title": "Senior Data Scientist",
+    "description": "We're looking for an experienced Data Scientist to build machine learning models and analyze large datasets.",
+    "country": "Egypt",
+    "city": "cairo",
+    "location_type": "Remote",
+    "status": "Opened",
+    "skills": ["Python", "Machine Learning", "TensorFlow", "Data Analysis", "SQL"],
+    "salary": 20000,
+    "employee_type": "FullTime",
+    "keywords": ["AI", "Deep Learning", "Data Science"],
+    "experience": 5,
+    "currency": "USD",
+    "has_extra_link_application": false,
+    "extra_application_link": null,
+    "business_id": 200039,
+    "created_at": "2025-06-24T12:48:12.638Z",
+    "updated_at": "2025-06-24T12:48:12.638Z"
+  },
+  "jobApplication": [
+    {
+      "id": 1,
+      "first_name": "Frontend",
+      "last_name": "Developer 1",
+      "email": "frontend1@example.com",
+      "phone": "01011111111",
+      "birth_date": "1995-01-01",
+      "skills": ["React", "JavaScript", "HTML", "CSS"],
+      "languages": ["English"],
+      "created_at": "2025-06-24T13:06:48.577Z",
+      "updated_at": "2025-06-24T13:06:48.577Z",
+      "job_application_education": [
+        {
+          "id": 1,
+          "university": "Cairo University",
+          "field_of_study": "Computer Science",
+          "gpa": 3.2,
+          "start_date": "2013-09-01",
+          "end_date": "2017-06-01"
+        }
+      ],
+      "job_application_experience": [
+        {
+          "id": 1,
+          "job_title": "Frontend Developer",
+          "description": "Developed user interfaces using React",
+          "employment_type": "FullTime",
+          "company_name": "Tech Company",
+          "location": "Cairo",
+          "location_type": "Hybrid",
+          "still_working": true,
+          "start_date": "2020-01-01",
+          "end_date": null
+        }
+      ],
+      "job_application_resume": [
+        {
+          "id": 1,
+          "url": "http://example.com/resume1.pdf",
+          "name": "Frontend_Resume.pdf",
+          "size": 50000
+        }
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": 2,
+      "first_name": "Backend",
+      "last_name": "Developer 1",
+      "email": "backend1@example.com",
+      "phone": "01022222222",
+      "birth_date": "1994-02-02",
+      "skills": ["Node.js", "Python", "Django", "PostgreSQL"],
+      "languages": ["English", "Arabic"],
+      "created_at": "2025-06-24T13:06:48.577Z",
+      "updated_at": "2025-06-24T13:06:48.577Z",
+      "job_application_education": [
+        {
+          "id": 2,
+          "university": "Alexandria University",
+          "field_of_study": "Software Engineering",
+          "gpa": 3.4,
+          "start_date": "2012-09-01",
+          "end_date": "2016-06-01"
+        }
+      ],
+      "job_application_experience": [
+        {
+          "id": 2,
+          "job_title": "Backend Developer",
+          "description": "Built REST APIs and database systems",
+          "employment_type": "FullTime",
+          "company_name": "Software Inc",
+          "location": "Alexandria",
+          "location_type": "Remote",
+          "still_working": false,
+          "start_date": "2018-01-01",
+          "end_date": "2024-01-01"
+        }
+      ],
+      "job_application_resume": [
+        {
+          "id": 2,
+          "url": "http://example.com/resume2.pdf",
+          "name": "Backend_Resume.pdf",
+          "size": 55000
+        }
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": 3,
+      "first_name": "Data",
+      "last_name": "Scientist 1",
+      "email": "datascience1@example.com",
+      "phone": "01033333333",
+      "birth_date": "1990-03-03",
+      "skills": ["Python", "Machine Learning", "TensorFlow", "Data Analysis", "SQL"],
+      "languages": ["English", "French"],
+      "created_at": "2025-06-24T13:06:48.577Z",
+      "updated_at": "2025-06-24T13:06:48.577Z",
+      "job_application_education": [
+        {
+          "id": 3,
+          "university": "Ain Shams University",
+          "field_of_study": "Artificial Intelligence",
+          "gpa": 3.8,
+          "start_date": "2010-09-01",
+          "end_date": "2014-06-01"
+        }
+      ],
+      "job_application_experience": [
+        {
+          "id": 3,
+          "job_title": "Data Scientist",
+          "description": "Developed ML models for predictive analytics",
+          "employment_type": "FullTime",
+          "company_name": "AI Solutions",
+          "location": "Cairo",
+          "location_type": "Onsite",
+          "still_working": true,
+          "start_date": "2019-01-01",
+          "end_date": null
+        }
+      ],
+      "job_application_resume": [
+        {
+          "id": 3,
+          "url": "http://example.com/resume3.pdf",
+          "name": "DataScience_Resume.pdf",
+          "size": 60000
+        }
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": 4,
+      "first_name": "Frontend",
+      "last_name": "Developer 2",
+      "email": "frontend2@example.com",
+      "phone": "01044444444",
+      "birth_date": "1993-04-04",
+      "skills": ["Vue.js", "JavaScript", "CSS", "UI/UX"],
+      "languages": ["English"],
+      "created_at": "2025-06-24T13:06:48.577Z",
+      "updated_at": "2025-06-24T13:06:48.577Z",
+      "job_application_education": [
+        {
+          "id": 4,
+          "university": "Mansoura University",
+          "field_of_study": "Computer Science",
+          "gpa": 3.1,
+          "start_date": "2014-09-01",
+          "end_date": "2018-06-01"
+        }
+      ],
+      "job_application_experience": [
+        {
+          "id": 4,
+          "job_title": "UI Developer",
+          "description": "Created responsive web interfaces",
+          "employment_type": "FullTime",
+          "company_name": "Web Solutions",
+          "location": "Giza",
+          "location_type": "Onsite",
+          "still_working": false,
+          "start_date": "2019-01-01",
+          "end_date": "2023-12-01"
+        }
+      ],
+      "job_application_resume": [
+        {
+          "id": 4,
+          "url": "http://example.com/resume4.pdf",
+          "name": "Frontend2_Resume.pdf",
+          "size": 52000
+        }
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": 5,
+      "first_name": "Backend",
+      "last_name": "Developer 2",
+      "email": "backend2@example.com",
+      "phone": "01055555555",
+      "birth_date": "1992-05-05",
+      "skills": ["Java", "Spring Boot", "MySQL", "Microservices"],
+      "languages": ["English", "German"],
+      "created_at": "2025-06-24T13:06:48.577Z",
+      "updated_at": "2025-06-24T13:06:48.577Z",
+      "job_application_education": [
+        {
+          "id": 5,
+          "university": "Helwan University",
+          "field_of_study": "Computer Engineering",
+          "gpa": 3.5,
+          "start_date": "2011-09-01",
+          "end_date": "2015-06-01"
+        }
+      ],
+      "job_application_experience": [
+        {
+          "id": 5,
+          "job_title": "Java Developer",
+          "description": "Developed backend services using Spring Boot",
+          "employment_type": "FullTime",
+          "company_name": "Enterprise Systems",
+          "location": "Cairo",
+          "location_type": "Hybrid",
+          "still_working": true,
+          "start_date": "2017-01-01",
+          "end_date": null
+        }
+      ],
+      "job_application_resume": [
+        {
+          "id": 5,
+          "url": "http://example.com/resume5.pdf",
+          "name": "Backend2_Resume.pdf",
+          "size": 58000
+        }
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": 6,
+      "first_name": "Data",
+      "last_name": "Scientist 2",
+      "email": "datascience2@example.com",
+      "phone": "01066666666",
+      "birth_date": "1989-06-06",
+      "skills": ["Python", "PyTorch", "NLP", "Computer Vision", "Big Data"],
+      "languages": ["English", "Spanish"],
+      "created_at": "2025-06-24T13:06:48.577Z",
+      "updated_at": "2025-06-24T13:06:48.577Z",
+      "job_application_education": [
+        {
+          "id": 6,
+          "university": "Zagazig University",
+          "field_of_study": "Data Science",
+          "gpa": 3.9,
+          "start_date": "2009-09-01",
+          "end_date": "2013-06-01"
+        }
+      ],
+      "job_application_experience": [
+        {
+          "id": 6,
+          "job_title": "ML Engineer",
+          "description": "Built deep learning models for image recognition",
+          "employment_type": "FullTime",
+          "company_name": "DeepTech",
+          "location": "Alexandria",
+          "location_type": "Remote",
+          "still_working": true,
+          "start_date": "2018-01-01",
+          "end_date": null
+        }
+      ],
+      "job_application_resume": [
+        {
+          "id": 6,
+          "url": "http://example.com/resume6.pdf",
+          "name": "DataScience2_Resume.pdf",
+          "size": 62000
+        }
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": 7,
+      "first_name": "Frontend",
+      "last_name": "Developer 3",
+      "email": "frontend3@example.com",
+      "phone": "01077777777",
+      "birth_date": "1991-07-07",
+      "skills": ["Angular", "TypeScript", "SASS", "RxJS"],
+      "languages": ["English", "Arabic"],
+      "created_at": "2025-06-24T13:06:48.577Z",
+      "updated_at": "2025-06-24T13:06:48.577Z",
+      "job_application_education": [
+        {
+          "id": 7,
+          "university": "Assiut University",
+          "field_of_study": "Information Technology",
+          "gpa": 3.3,
+          "start_date": "2015-09-01",
+          "end_date": "2019-06-01"
+        }
+      ],
+      "job_application_experience": [
+        {
+          "id": 7,
+          "job_title": "Angular Developer",
+          "description": "Developed single page applications with Angular",
+          "employment_type": "FullTime",
+          "company_name": "Frontend Masters",
+          "location": "Cairo",
+          "location_type": "Remote",
+          "still_working": false,
+          "start_date": "2020-01-01",
+          "end_date": "2024-05-01"
+        }
+      ],
+      "job_application_resume": [
+        {
+          "id": 7,
+          "url": "http://example.com/resume7.pdf",
+          "name": "Frontend3_Resume.pdf",
+          "size": 51000
+        }
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": 8,
+      "first_name": "Backend",
+      "last_name": "Developer 3",
+      "email": "backend3@example.com",
+      "phone": "01088888888",
+      "birth_date": "1990-08-08",
+      "skills": ["C#", ".NET", "Azure", "SQL Server"],
+      "languages": ["English", "French"],
+      "created_at": "2025-06-24T13:06:48.577Z",
+      "updated_at": "2025-06-24T13:06:48.577Z",
+      "job_application_education": [
+        {
+          "id": 8,
+          "university": "Suez Canal University",
+          "field_of_study": "Computer Science",
+          "gpa": 3.6,
+          "start_date": "2010-09-01",
+          "end_date": "2014-06-01"
+        }
+      ],
+      "job_application_experience": [
+        {
+          "id": 8,
+          "job_title": ".NET Developer",
+          "description": "Developed enterprise applications using .NET framework",
+          "employment_type": "FullTime",
+          "company_name": "Enterprise Solutions",
+          "location": "Ismailia",
+          "location_type": "Onsite",
+          "still_working": true,
+          "start_date": "2016-01-01",
+          "end_date": null
+        }
+      ],
+      "job_application_resume": [
+        {
+          "id": 8,
+          "url": "http://example.com/resume8.pdf",
+          "name": "Backend3_Resume.pdf",
+          "size": 59000
+        }
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": 9,
+      "first_name": "Data",
+      "last_name": "Scientist 3",
+      "email": "datascience3@example.com",
+      "phone": "01099999999",
+      "birth_date": "1988-09-09",
+      "skills": ["R", "Statistics", "Data Visualization", "Pandas", "Scikit-learn"],
+      "languages": ["English", "Arabic"],
+      "created_at": "2025-06-24T13:06:48.577Z",
+      "updated_at": "2025-06-24T13:06:48.577Z",
+      "job_application_education": [
+        {
+          "id": 9,
+          "university": "Benha University",
+          "field_of_study": "Statistics",
+          "gpa": 3.7,
+          "start_date": "2008-09-01",
+          "end_date": "2012-06-01"
+        }
+      ],
+      "job_application_experience": [
+        {
+          "id": 9,
+          "job_title": "Data Analyst",
+          "description": "Performed statistical analysis and created predictive models",
+          "employment_type": "FullTime",
+          "company_name": "Analytics Corp",
+          "location": "Cairo",
+          "location_type": "Hybrid",
+          "still_working": true,
+          "start_date": "2017-01-01",
+          "end_date": null
+        }
+      ],
+      "job_application_resume": [
+        {
+          "id": 9,
+          "url": "http://example.com/resume9.pdf",
+          "name": "DataScience3_Resume.pdf",
+          "size": 63000
+        }
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": 10,
+      "first_name": "Frontend",
+      "last_name": "Developer 4",
+      "email": "frontend4@example.com",
+      "phone": "01010101010",
+      "birth_date": "1994-10-10",
+      "skills": ["JavaScript", "jQuery", "Bootstrap", "Webpack"],
+      "languages": ["English"],
+      "created_at": "2025-06-24T13:06:48.577Z",
+      "updated_at": "2025-06-24T13:06:48.577Z",
+      "job_application_education": [
+        {
+          "id": 10,
+          "university": "Minia University",
+          "field_of_study": "Computer Science",
+          "gpa": 3.0,
+          "start_date": "2016-09-01",
+          "end_date": "2020-06-01"
+        }
+      ],
+      "job_application_experience": [
+        {
+          "id": 10,
+          "job_title": "Web Developer",
+          "description": "Built responsive websites using JavaScript and jQuery",
+          "employment_type": "FullTime",
+          "company_name": "Web Masters",
+          "location": "Luxor",
+          "location_type": "Remote",
+          "still_working": false,
+          "start_date": "2021-01-01",
+          "end_date": "2024-04-01"
+        }
+      ],
+      "job_application_resume": [
+        {
+          "id": 10,
+          "url": "http://example.com/resume10.pdf",
+          "name": "Frontend4_Resume.pdf",
+          "size": 49000
+        }
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": 11,
+      "first_name": "Backend",
+      "last_name": "Developer 4",
+      "email": "backend4@example.com",
+      "phone": "01012121212",
+      "birth_date": "1993-11-11",
+      "skills": ["PHP", "Laravel", "MySQL", "API Development"],
+      "languages": ["English", "Arabic"],
+      "created_at": "2025-06-24T13:06:48.577Z",
+      "updated_at": "2025-06-24T13:06:48.577Z",
+      "job_application_education": [
+        {
+          "id": 11,
+          "university": "South Valley University",
+          "field_of_study": "Software Engineering",
+          "gpa": 3.4,
+          "start_date": "2015-09-01",
+          "end_date": "2019-06-01"
+        }
+      ],
+      "job_application_experience": [
+        {
+          "id": 11,
+          "job_title": "PHP Developer",
+          "description": "Developed web applications using Laravel framework",
+          "employment_type": "FullTime",
+          "company_name": "Web Solutions",
+          "location": "Aswan",
+          "location_type": "Onsite",
+          "still_working": true,
+          "start_date": "2020-01-01",
+          "end_date": null
+        }
+      ],
+      "job_application_resume": [
+        {
+          "id": 11,
+          "url": "http://example.com/resume11.pdf",
+          "name": "Backend4_Resume.pdf",
+          "size": 56000
+        }
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": 12,
+      "first_name": "Data",
+      "last_name": "Scientist 4",
+      "email": "datascience4@example.com",
+      "phone": "01013131313",
+      "birth_date": "1987-12-12",
+      "skills": ["Python", "Spark", "Hadoop", "Data Warehousing", "ETL"],
+      "languages": ["English", "German"],
+      "created_at": "2025-06-24T13:06:48.577Z",
+      "updated_at": "2025-06-24T13:06:48.577Z",
+      "job_application_education": [
+        {
+          "id": 12,
+          "university": "Fayoum University",
+          "field_of_study": "Computer Science",
+          "gpa": 3.8,
+          "start_date": "2007-09-01",
+          "end_date": "2011-06-01"
+        }
+      ],
+      "job_application_experience": [
+        {
+          "id": 12,
+          "job_title": "Big Data Engineer",
+          "description": "Built data pipelines and processed large datasets",
+          "employment_type": "FullTime",
+          "company_name": "Big Data Inc",
+          "location": "Cairo",
+          "location_type": "Remote",
+          "still_working": true,
+          "start_date": "2016-01-01",
+          "end_date": null
+        }
+      ],
+      "job_application_resume": [
+        {
+          "id": 12,
+          "url": "http://example.com/resume12.pdf",
+          "name": "DataScience4_Resume.pdf",
+          "size": 65000
+        }
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": 13,
+      "first_name": "Frontend",
+      "last_name": "Developer 5",
+      "email": "frontend5@example.com",
+      "phone": "01014141414",
+      "birth_date": "1996-01-13",
+      "skills": ["React", "Redux", "Next.js", "GraphQL"],
+      "languages": ["English", "Arabic"],
+      "created_at": "2025-06-24T13:06:48.577Z",
+      "updated_at": "2025-06-24T13:06:48.577Z",
+      "job_application_education": [
+        {
+          "id": 13,
+          "university": "Damietta University",
+          "field_of_study": "Computer Science",
+          "gpa": 3.2,
+          "start_date": "2017-09-01",
+          "end_date": "2021-06-01"
+        }
+      ],
+      "job_application_experience": [
+        {
+          "id": 13,
+          "job_title": "React Developer",
+          "description": "Built complex frontend applications with React ecosystem",
+          "employment_type": "FullTime",
+          "company_name": "React Experts",
+          "location": "Damietta",
+          "location_type": "Hybrid",
+          "still_working": true,
+          "start_date": "2022-01-01",
+          "end_date": null
+        }
+      ],
+      "job_application_resume": [
+        {
+          "id": 13,
+          "url": "http://example.com/resume13.pdf",
+          "name": "Frontend5_Resume.pdf",
+          "size": 54000
+        }
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": 14,
+      "first_name": "Backend",
+      "last_name": "Developer 5",
+      "email": "backend5@example.com",
+      "phone": "01015151515",
+      "birth_date": "1991-02-14",
+      "skills": ["Go", "Docker", "Kubernetes", "Microservices", "AWS"],
+      "languages": ["English", "Spanish"],
+      "created_at": "2025-06-24T13:06:48.577Z",
+      "updated_at": "2025-06-24T13:06:48.577Z",
+      "job_application_education": [
+        {
+          "id": 14,
+          "university": "Kafr El Sheikh University",
+          "field_of_study": "Computer Engineering",
+          "gpa": 3.5,
+          "start_date": "2013-09-01",
+          "end_date": "2017-06-01"
+        }
+      ],
+      "job_application_experience": [
+        {
+          "id": 14,
+          "job_title": "DevOps Engineer",
+          "description": "Implemented CI/CD pipelines and cloud infrastructure",
+          "employment_type": "FullTime",
+          "company_name": "Cloud Solutions",
+          "location": "Cairo",
+          "location_type": "Remote",
+          "still_working": true,
+          "start_date": "2018-01-01",
+          "end_date": null
+        }
+      ],
+      "job_application_resume": [
+        {
+          "id": 14,
+          "url": "http://example.com/resume14.pdf",
+          "name": "Backend5_Resume.pdf",
+          "size": 57000
+        }
+      ],
+      "questionAnswers": []
+    },
+    {
+      "id": 15,
+      "first_name": "Data",
+      "last_name": "Scientist 5",
+      "email": "datascience5@example.com",
+      "phone": "01016161616",
+      "birth_date": "1986-03-15",
+      "skills": ["Python", "Keras", "Reinforcement Learning", "Time Series Analysis"],
+      "languages": ["English", "French"],
+      "created_at": "2025-06-24T13:06:48.577Z",
+      "updated_at": "2025-06-24T13:06:48.577Z",
+      "job_application_education": [
+        {
+          "id": 15,
+          "university": "Port Said University",
+          "field_of_study": "Artificial Intelligence",
+          "gpa": 3.9,
+          "start_date": "2006-09-01",
+          "end_date": "2010-06-01"
+        }
+      ],
+      "job_application_experience": [
+        {
+          "id": 15,
+          "job_title": "AI Researcher",
+          "description": "Conducted research in deep learning and published papers",
+          "employment_type": "FullTime",
+          "company_name": "AI Research Lab",
+          "location": "Port Said",
+          "location_type": "Onsite",
+          "still_working": true,
+          "start_date": "2015-01-01",
+          "end_date": null
+        }
+      ],
+      "job_application_resume": [
+        {
+          "id": 15,
+          "url": "http://example.com/resume15.pdf",
+          "name": "DataScience5_Resume.pdf",
+          "size": 66000
+        }
+      ],
+      "questionAnswers": []
+    }
+  ]
+}

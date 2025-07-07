@@ -1,0 +1,105 @@
+{
+  "user":
+   {
+    "id": 2,
+    "country": "Egypt",
+    "city": "Tanta",
+    "about_me": "Passionate and goal-driven software engineer with a strong foundation in backend development and AI integration. Experienced in building scalable applications, collaborating in cross-functional teams, and delivering real-world solutions through clean, maintainable code. Currently focused on enhancing backend systems and leveraging AI to drive smarter product experiences.\n\n",
+    "subtitle": "Backend Developer | AI Enthusiast | Problem Solver",
+    "skills": [
+      {
+        "name": "Node.js"
+      },
+      {
+        "name": "Backend"
+      },
+      {
+        "name": "postgres"
+      },
+      {
+        "name": "java"
+      },
+      {
+        "name": "software engineer"
+      },
+      {
+        "name": "TypeScript"
+      },
+      {
+        "name": "Spring boot"
+      }
+    ],
+    "educations": [
+      {
+        "id": 1,
+        "university": "Tanta",
+        "field_of_study": "Computer Engineering",
+        "gpa": 3.99,
+        "start_date": "2022-12-31",
+        "end_date": "2026-12-31",
+        "account_id": 2
+      }
+    ],
+    "experiences": [
+      {
+        "id": 1,
+        "account_id": 2,
+        "job_title": "Java Sprint Boot Internship",
+        "employment_type": "FullTime",
+        "company_name": "Bank Misr",
+        "location": "Cairo",
+        "location_type": "Remote",
+        "still_working": false,
+        "start_date": "2023-07-01",
+        "end_date": "2024-10-20"
+      },
+      {
+        "id": 3,
+        "account_id": 2,
+        "job_title": "Node.js Internship",
+        "employment_type": "FullTime",
+        "company_name": "Vodafhone",
+        "location": "Cairo",
+        "location_type": "Onsite",
+        "still_working": false,
+        "start_date": "2020-07-01",
+        "end_date": "2021-10-20"
+      }
+    ]
+  },
+  "job":
+   {
+  "id": 10002,
+  "title": "Full-Stack Developer",
+  "description": "Join our innovative tech team to build robust web applications. Develop backend services using Node.js and TypeScript, manage PostgreSQL databases, and create responsive frontends with React. Collaborate with designers and product managers to deliver seamless user experiences. Responsibilities include writing scalable APIs, optimizing database queries, and ensuring code quality through testing and reviews.",
+  "country": "Egypt",
+  "city": "Alexandria",
+  "location_type": "Remote",
+  "status": "Opened",
+  "skills": [
+    "Node.js",
+    "TypeScript",
+    "PostgreSQL",
+    "React",
+    "Backend Development",
+    "Frontend Development",
+    "API Development",
+    "Database Optimization"
+  ],
+  "salary": 80000,
+  "employee_type": "FullTime",
+  "keywords": [
+    "Full-Stack Developer",
+    "Node.js",
+    "TypeScript",
+    "PostgreSQL",
+    "React",
+    "API Development",
+    "Database Optimization"
+  ],
+  "experience": 3,
+  "business_id": 3,
+  "created_at": "2025-05-14T00:00:00.000Z",
+  "updated_at": "2025-05-14T00:00:00.000Z"
+}
+}
