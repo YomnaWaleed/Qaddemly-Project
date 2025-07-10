@@ -17,7 +17,6 @@ load_dotenv()
 
 # Access the variables
 groq_key = os.getenv("GROQ_API_KEY")
-agentops_key = os.getenv("AGENTOPS_API_KEY")
 
 # Setup LLM from Groq (using llama-3.3-70b-versatile)
 groq_llm = ChatGroq(
@@ -96,7 +95,7 @@ def run_qaddemly_bot(question: str, user_type: str, user_data: dict):
     if task_type_result != "OTHER":
         result["answer"] = FIXED_FEATURE_RESPONSES.get(task_type_result)
         return result
-    
+
     # 3. Step: Determine if data is needed
     query_task = build_query_task(question, user_type)
     query_crew = Crew(
@@ -113,7 +112,6 @@ def run_qaddemly_bot(question: str, user_type: str, user_data: dict):
         backend_data = {}
     else:
         backend_data = user_data
-
 
     final_task = build_final_answer_task(question, user_type, backend_data)
     final_crew = Crew(

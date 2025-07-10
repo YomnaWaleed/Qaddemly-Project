@@ -39,22 +39,21 @@ def build_vectorstore():
 # === Step 3: Load Saved Vectorstore ===
 from pathlib import Path
 
+
 def load_vectorstore():
     index_dir = Path("QA_faiss_index")
     index_file = index_dir / "index.faiss"
-    
+
     if not index_file.exists():
         print(f"[WARNING] FAISS index not found at {index_file}, building new one...")
         return build_vectorstore()
-    
+
     embeddings = HuggingFaceEmbeddings(
         model_name="sentence-transformers/all-MiniLM-L6-v2"
     )
     print("[INFO] Loading existing FAISS index...")
     return FAISS.load_local(
-        str(index_dir),
-        embeddings,
-        allow_dangerous_deserialization=True
+        str(index_dir), embeddings, allow_dangerous_deserialization=True
     )
 
 

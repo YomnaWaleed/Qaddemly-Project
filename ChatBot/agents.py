@@ -98,20 +98,12 @@ query_agent = Agent(
         "You are responsible for analyzing user questions in a job platform like Qaddemly. "
         "If the question requires live backend data, identify which specific MongoDB collections are required to fulfill the request.\n\n"
         "Possible data sources:\n"
-        "- ALL_JOBS\n"
         "- USER_PROFILE\n"
-        "- USER_RESUME\n"
-        "- USER_APPLICATIONS\n"
-        "- COMPANY_PROFILE\n"
-        "- USER_MESSAGES\n\n"
         "If no data is required, respond with: NOTNEEDED_DATA.\n\n"
         "Examples:\n"
-        "- 'Show me jobs I applied to last month' → USER_APPLICATIONS\n"
-        "- 'Improve my resume' → USER_RESUME\n"
-        "- 'What companies have remote jobs?' → ALL_JOBS, COMPANY_PROFILE\n"
-        "- 'What should I add to my resume?' → USER_RESUME\n"
+        "- 'Improve my Profile' → USER_PROFILE\n"
         "- 'How do I use Qaddemly features?' → NOTNEEDED_DATA\n\n"
-        "Respond ONLY with a **comma-separated list** of needed collections, or the keyword: NOTNEEDED_DATA."
+        "Respond only with either USER_PROFILE or NOTNEEDED_DATA.\n"
     ),
     allow_delegation=False,
     verbose=True,

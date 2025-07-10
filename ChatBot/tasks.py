@@ -8,18 +8,6 @@ from agents import classifier_agent, task_agent, query_agent, final_answer_agent
 
 # Task 1 : classifier task ( General , specific)
 
-# step 1 : Inject Dynamic calssification input
-"""
-# 6. Execute with test questions
-test_cases = [
-    {"question": "How does the Matching Score work?", "user_type": "candidate"}, # General
-    {"question": "Show my recent applications", "user_type": "candidate"}, # Specific
-    {"question": "Can HR managers post jobs?", "user_type": "hr"} # General
-]
-"""
-question = "What job roles am I best suited for based on my profile?"
-user_type = "candidate"
-user_data = {}
 
 def build_classifier_task(question: str, user_type: str) -> Task:
     formatted_description = (
